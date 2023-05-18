@@ -75,7 +75,8 @@ header h1 {
 	text-align: center;
 }
 #details ul {
-	margin: 0px 115px;
+	display: inline-block;
+	text-align: center;
 	list-style-type: circle;
 }
 .quantity {
