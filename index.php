@@ -11,11 +11,7 @@
 </head>
 
 <body>
-	<header>
-		<h1>Kino pod gwiazdami</h1>
-	</header>
-	<br id="enter1">
-	<img id="ticket" src="./assets/img1.png" alt="Bilet">
+	<?php include "head.php"; ?>
 	<form id="order" method="post" action="oblicz.php">
 		<h2>Kasa biletowa ONLINE</h2>
 		<label for="n">Liczba biletów normalnych (27zł/szt.):</label><br>
@@ -24,11 +20,7 @@
 		<input type="number" name="u" id="u" min="0" value="0" required><br>
 		<input type="submit" value="Zamów">
 	</form>
-	<br id="enter2">
-	<footer>
-		<h3>Wykonanie Krzysztof Jurkowski</h3>
-		<div>18.05.2023</div>
-	</footer>
+	<?php include "foot.php";?>
 </body>
 
 </html>

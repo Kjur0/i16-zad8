@@ -16,26 +16,18 @@
 </head>
 
 <body>
-	<header>
-		<h1>Kino pod gwiazdami</h1>
-	</header>
-	<br id="enter1">
-	<img id="ticket" src="./assets/img1.png" alt="Bilet">
+	<?php include "head.php"; ?>
 	<div id="details">
-		<h2>Kino Pod Gwiazdami</h2>
-		<p>Dokonano następującego zamówienia:
-		<ul>
-			<li>Bilety normalne: <span class="quantity"><?php echo $n; ?> sztuk</span></li>
-			<li>Bilety ulgowe: <span class="quantity"><?php echo $u; ?> sztuk</span></li>
-		</ul>
-		</p>
-		<h3>Koszt twojego zamówienia wynosi: <span id="cost"><?php echo $suma; ?> zł.</span></h3>
+	<h2>Kino Pod Gwiazdami</h2>
+	<p>Dokonano następującego zamówienia:
+	<ul>
+		<li>Bilety normalne: <span class="quantity"><?php echo $n; ?> sztuk</span></li>
+		<li>Bilety ulgowe: <span class="quantity"><?php echo $u; ?> sztuk</span></li>
+	</ul>
+	</p>
+	<h3>Koszt twojego zamówienia wynosi: <span id="cost"><?php echo $suma; ?> zł.</span></h3>
 	</div>
-	<br id="enter2">
-	<footer>
-		<h3>Wykonanie Krzysztof Jurkowski</h3>
-		<div>18.05.2023</div>
-	</footer>
+	<?php include "foot.php";?>
 </body>
 
 </html>
